@@ -1,0 +1,265 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.email_for_blind"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+11-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:3:5-71
+11-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:3:22-69
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:4:5-66
+12-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <!-- suppress DeprecatedClassUsageInspection -->
+14    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+14-->[androidx.biometric:biometric:1.1.0] C:\Users\jafry\.gradle\caches\transforms-3\1a4fb3717f9993ef4102e4c1bc55986f\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+14-->[androidx.biometric:biometric:1.1.0] C:\Users\jafry\.gradle\caches\transforms-3\1a4fb3717f9993ef4102e4c1bc55986f\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
+15-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:22-76
+16
+17    <permission
+17-->[androidx.core:core:1.9.0] C:\Users\jafry\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+18        android:name="com.example.email_for_blind.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] C:\Users\jafry\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] C:\Users\jafry\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.example.email_for_blind.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.9.0] C:\Users\jafry\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] C:\Users\jafry\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+22
+23    <application
+24        android:name="android.app.Application"
+24-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:7:9-42
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] C:\Users\jafry\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:8:9-43
+27        android:label="Echo Mail" >
+27-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:6:9-34
+28        <activity
+28-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:9:9-29:20
+29            android:name="com.example.email_for_blind.MainActivity"
+29-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:10:13-41
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:14:13-163
+31            android:exported="true"
+31-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:11:13-36
+32            android:hardwareAccelerated="true"
+32-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:15:13-47
+33            android:launchMode="singleTop"
+33-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:12:13-43
+34            android:theme="@style/LaunchTheme"
+34-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:13:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:16:13-55
+36
+37            <!--
+38                 Specifies an Android theme to apply to this Activity as soon as
+39                 the Android process has started. This theme is visible to the user
+40                 while the Flutter UI initializes. After that, this theme continues
+41                 to determine the Window background behind the Flutter UI.
+42            -->
+43            <meta-data
+43-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:21:13-24:17
+44                android:name="io.flutter.embedding.android.NormalTheme"
+44-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:22:15-70
+45                android:resource="@style/NormalTheme" />
+45-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:23:15-52
+46
+47            <intent-filter>
+47-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:25:13-28:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:26:17-68
+48-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:26:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:27:17-76
+50-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:27:27-74
+51            </intent-filter>
+52        </activity>
+53        <!--
+54             Don't delete the meta-data below.
+55             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+56        -->
+57        <meta-data
+57-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:32:9-34:33
+58            android:name="flutterEmbedding"
+58-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:33:13-44
+59            android:value="2" />
+59-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:34:13-30
+60
+61        <service
+61-->[:firebase_auth] C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
+62            android:name="com.google.firebase.components.ComponentDiscoveryService"
+62-->[:firebase_auth] C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
+63            android:directBootAware="true"
+63-->[com.google.firebase:firebase-common:20.3.0] C:\Users\jafry\.gradle\caches\transforms-3\dbca14ae8831d3272c2dc3ee92f824c5\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:34:13-43
+64            android:exported="false" >
+64-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
+65            <meta-data
+65-->[:firebase_auth] C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+66                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+66-->[:firebase_auth] C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[:firebase_auth] C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+68            <meta-data
+68-->[:firebase_core] C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+69                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+69-->[:firebase_core] C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[:firebase_core] C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+72                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+72-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+74        </service>
+75
+76        <activity
+76-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\jafry\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:23:9-27:75
+77            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+77-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\jafry\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:24:13-93
+78            android:excludeFromRecents="true"
+78-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\jafry\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:25:13-46
+79            android:exported="false"
+79-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\jafry\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:26:13-37
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\jafry\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:27:13-72
+81        <!--
+82            Service handling Google Sign-In user revocation. For apps that do not integrate with
+83            Google Sign-In, this service will never be started.
+84        -->
+85        <service
+85-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\jafry\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:33:9-37:51
+86            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+86-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\jafry\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:34:13-89
+87            android:exported="true"
+87-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\jafry\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:35:13-36
+88            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+88-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\jafry\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:36:13-107
+89            android:visibleToInstantApps="true" />
+89-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\jafry\.gradle\caches\transforms-3\3be2969864d386eae3cc7aac04558c8d\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:37:13-48
+90
+91        <activity
+91-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+92            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+92-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+93            android:excludeFromRecents="true"
+93-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+94            android:exported="true"
+94-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+95            android:launchMode="singleTask"
+95-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+96-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+97            <intent-filter>
+97-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+98                <action android:name="android.intent.action.VIEW" />
+98-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+98-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+99
+100                <category android:name="android.intent.category.DEFAULT" />
+100-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+100-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+101                <category android:name="android.intent.category.BROWSABLE" />
+101-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+101-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+102
+103                <data
+103-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+104                    android:host="firebase.auth"
+104-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+105                    android:path="/"
+105-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+106                    android:scheme="genericidp" />
+106-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+107            </intent-filter>
+108        </activity>
+109        <activity
+109-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+110            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+110-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+111            android:excludeFromRecents="true"
+111-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+112            android:exported="true"
+112-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+113            android:launchMode="singleTask"
+113-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+114-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+115            <intent-filter>
+115-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+116                <action android:name="android.intent.action.VIEW" />
+116-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+116-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+117
+118                <category android:name="android.intent.category.DEFAULT" />
+118-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+118-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+119                <category android:name="android.intent.category.BROWSABLE" />
+119-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+119-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+120
+121                <data
+121-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+122                    android:host="firebase.auth"
+122-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+123                    android:path="/"
+123-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+124                    android:scheme="recaptcha" />
+124-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+125            </intent-filter>
+126        </activity>
+127        <activity
+127-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jafry\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+128            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+128-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jafry\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+129            android:exported="false"
+129-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jafry\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+130-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\jafry\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+131
+132        <provider
+132-->[com.google.firebase:firebase-common:20.3.0] C:\Users\jafry\.gradle\caches\transforms-3\dbca14ae8831d3272c2dc3ee92f824c5\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:25:9-30:39
+133            android:name="com.google.firebase.provider.FirebaseInitProvider"
+133-->[com.google.firebase:firebase-common:20.3.0] C:\Users\jafry\.gradle\caches\transforms-3\dbca14ae8831d3272c2dc3ee92f824c5\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:26:13-77
+134            android:authorities="com.example.email_for_blind.firebaseinitprovider"
+134-->[com.google.firebase:firebase-common:20.3.0] C:\Users\jafry\.gradle\caches\transforms-3\dbca14ae8831d3272c2dc3ee92f824c5\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:27:13-72
+135            android:directBootAware="true"
+135-->[com.google.firebase:firebase-common:20.3.0] C:\Users\jafry\.gradle\caches\transforms-3\dbca14ae8831d3272c2dc3ee92f824c5\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:28:13-43
+136            android:exported="false"
+136-->[com.google.firebase:firebase-common:20.3.0] C:\Users\jafry\.gradle\caches\transforms-3\dbca14ae8831d3272c2dc3ee92f824c5\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:29:13-37
+137            android:initOrder="100" />
+137-->[com.google.firebase:firebase-common:20.3.0] C:\Users\jafry\.gradle\caches\transforms-3\dbca14ae8831d3272c2dc3ee92f824c5\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:30:13-36
+138
+139        <meta-data
+139-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\jafry\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+140            android:name="com.google.android.gms.version"
+140-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\jafry\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+141            android:value="@integer/google_play_services_version" />
+141-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\jafry\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+142
+143        <uses-library
+143-->[androidx.window:window:1.0.0-beta04] C:\Users\jafry\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+144            android:name="androidx.window.extensions"
+144-->[androidx.window:window:1.0.0-beta04] C:\Users\jafry\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+145            android:required="false" />
+145-->[androidx.window:window:1.0.0-beta04] C:\Users\jafry\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+146        <uses-library
+146-->[androidx.window:window:1.0.0-beta04] C:\Users\jafry\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+147            android:name="androidx.window.sidecar"
+147-->[androidx.window:window:1.0.0-beta04] C:\Users\jafry\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+148            android:required="false" />
+148-->[androidx.window:window:1.0.0-beta04] C:\Users\jafry\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+149    </application>
+150
+151</manifest>

@@ -1,0 +1,4 @@
+#Thu Mar 02 11:39:52 IST 2023
+base.0=C\:\\Users\\jafry\\Downloads\\Telegram Desktop\\Email-for-blind-main\\Email-for-blind-main\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
