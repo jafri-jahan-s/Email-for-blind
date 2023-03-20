@@ -13,11 +13,11 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:4:5-66
-15-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:4:22-64
+15-->C:\Users\jafry\StudioProjects\Email-for-blind\android\app\src\main\AndroidManifest.xml:4:5-66
+15-->C:\Users\jafry\StudioProjects\Email-for-blind\android\app\src\main\AndroidManifest.xml:4:22-64
 16    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
-16-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:3:5-71
-16-->C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\android\app\src\main\AndroidManifest.xml:3:22-69
+16-->C:\Users\jafry\StudioProjects\Email-for-blind\android\app\src\main\AndroidManifest.xml:3:5-71
+16-->C:\Users\jafry\StudioProjects\Email-for-blind\android\app\src\main\AndroidManifest.xml:3:22-69
 17    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
 17-->[androidx.biometric:biometric:1.1.0] C:\Users\jafry\.gradle\caches\transforms-3\1a4fb3717f9993ef4102e4c1bc55986f\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
 17-->[androidx.biometric:biometric:1.1.0] C:\Users\jafry\.gradle\caches\transforms-3\1a4fb3717f9993ef4102e4c1bc55986f\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
@@ -77,25 +77,25 @@
 63            android:value="2" />
 64
 65        <service
-65-->[:firebase_auth] C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+65-->[:firebase_auth] C:\Users\jafry\StudioProjects\Email-for-blind\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
 66            android:name="com.google.firebase.components.ComponentDiscoveryService"
-66-->[:firebase_auth] C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+66-->[:firebase_auth] C:\Users\jafry\StudioProjects\Email-for-blind\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
 67            android:directBootAware="true"
 67-->[com.google.firebase:firebase-common:20.3.0] C:\Users\jafry\.gradle\caches\transforms-3\dbca14ae8831d3272c2dc3ee92f824c5\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:34:13-43
 68            android:exported="false" >
 68-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
 69            <meta-data
-69-->[:firebase_auth] C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+69-->[:firebase_auth] C:\Users\jafry\StudioProjects\Email-for-blind\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 70                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-70-->[:firebase_auth] C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+70-->[:firebase_auth] C:\Users\jafry\StudioProjects\Email-for-blind\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 71                android:value="com.google.firebase.components.ComponentRegistrar" />
-71-->[:firebase_auth] C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+71-->[:firebase_auth] C:\Users\jafry\StudioProjects\Email-for-blind\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 72            <meta-data
-72-->[:firebase_core] C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+72-->[:firebase_core] C:\Users\jafry\StudioProjects\Email-for-blind\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-73-->[:firebase_core] C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+73-->[:firebase_core] C:\Users\jafry\StudioProjects\Email-for-blind\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 74                android:value="com.google.firebase.components.ComponentRegistrar" />
-74-->[:firebase_core] C:\Users\jafry\Downloads\Telegram Desktop\Email-for-blind-main\Email-for-blind-main\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+74-->[:firebase_core] C:\Users\jafry\StudioProjects\Email-for-blind\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 75            <meta-data
 75-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\jafry\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
 76                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
