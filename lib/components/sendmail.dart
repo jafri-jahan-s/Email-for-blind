@@ -22,7 +22,7 @@ Future sendmail(String to, String subject, String mailmsg) async {
     await send(message, SmtpServer);
     print('sucess');
   } on MailerException catch (e) {
-    print(e);
+    print('Message not sent.');
   }
 }
 

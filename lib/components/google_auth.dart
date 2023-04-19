@@ -12,4 +12,6 @@ class GoogleAuthApi {
   }
 
   static Future signOut() => _googleSingIn.signOut();
+
+  static authenticatedClient() {}
 }
